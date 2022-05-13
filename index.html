@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
+
+    <!-- Linking CSS file -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/504872612f.js" crossorigin="anonymous"></script>
+
+    <title>& Andstudio Clone</title>
+    
+
+</head>
+<body>
+    <!-- Section 1 -->
+    <section id="section1">
+        
+            <div class="heading-header" >
+                <div class="left-text"><h1>andstudio</h1> <span>&</span></div>
+                <div class="right-text">
+                    <div class="right-text-content">Work</div>
+                    <div class="right-text-content">Studio</div>
+                    <div class="right-text-content">Contact</div>
+                </div>
+            </div>
+            <div class="heading-second"> <p>& is a connection.</p>
+                <p>Connection between</p>
+            </div>
+            <div class="heading-third">
+                <div class="big-text"></div>
+                <div class="horizental-line">
+                    
+                    <hr>
+                </div>
+                <div class="and-sign">
+                    <!-- <h4 onmouseover="repeater = setInterval(image_changer,3000);" onmouseout="clearInterval(repeater);">&</h4> -->
+                    <h4 onmouseover="repeater = setInterval(image_changer,2500);" onmouseout="clearInterval(repeater); " >&</h4>
+
+                </div>
+            </div>
+            <div class = "heading-fourth">
+                <div class ="left-fourth-img">
+                    <img class="karma-image" src="data:image/jpeg;base64,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" alt="karma image">
+                </div>
+                <div class="right-fourth-text ">
+                    <div class="right-fourth-text1">We are a value design branding studio, making design valuable beyond the aesthetics. By applying modular solutions & rigorously extracting deep-seated meaning, we derive customisable identities - one case at a time.
+                        <div class = "right-fourth-read-more"><p>Read </p><span></span> <p class="more">More</p></div>
+                    </div>
+                </div>
+            </div>
+            
+        
+    </section>
+
+    <!-- Section 2 -->
+    <section id="section2">
+        <div class="section2-whole-thing">
+        <div class = "section2-first-div"> <h1>SELECTED PROJECTS / 6</h1></div>
+        <div class="section2-second-div">
+            <div class="section2-first-image">
+            <img  src="https://images.unsplash.com/photo-1645390747975-fb637273ca5e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt="first image">
+            <h2>Shaping IKEA's findings into a magazine</h2>
+            <p>Editing / Content / Art direction / Editorial design / Photography direction</p>
+        </div>
+        <div class="section2-second-image">
+            <img src="https://images.unsplash.com/photo-1638913662295-9630035ef770?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwyMXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt="">
+            <h2>Shaping IKEA's findings into a magazine</h2>
+            <p>Editing / Content / Art direction / Editorial design / Photography direction</p>
+        
+        </div>
+        </div>
+        <div class="section2-third-div">
+            <div class="section2-third-image">
+                <img  src="https://images.unsplash.com/photo-1645363710209-aad3e68d0e6f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzMXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt="first image">
+                <h2>Shaping IKEA's findings into a magazine</h2>
+                <p>Editing / Content / Art direction / Editorial design / Photography direction</p>
+            </div>
+            <div class="section2-fourth-image">
+                <img src="https://images.unsplash.com/photo-1645394119564-41a539d1cfa7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzOXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt="">
+                <h2>Shaping IKEA's findings into a magazine</h2>
+                <p>Editing / Content / Art direction / Editorial design / Photography direction</p>
+               <div class="view-all">
+                    <div class="view-all-text"><p class="view-left1">View</p><span></span><p>All</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+        
+
+
+    </div>
+    </section>
+
+    <!--  Linking JS file -->
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,432 @@
+
+/* Header Section */
+body {
+    margin: 0;
+}
+
+
+/* Section 1 */
+
+
+/* First part */
+.heading-header {
+    display: flex;
+    position: sticky;
+    top: 0;
+    
+    
+    
+}
+.left-text{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+    text-align: center;
+    align-items: center;
+    margin: 1% 4%;
+}
+
+.left-text > span {
+    display: none;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+    text-align: center;
+    align-items: center;
+    margin: 1% 4%;
+}
+.right-text{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-left: 60%
+}
+
+.right-text-content {
+    position: relative;
+    margin-left: 20%;
+    font-size: 1.3rem;
+    padding-bottom: 0.5rem;
+}
+
+.right-text-content:after  {
+    position: absolute;
+    content: "";
+    display: block;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    line-height: 1;
+    width: 100%;
+    background-color: black;
+    transform-origin: left bottom;
+    transform: scaleX(0);
+    transition: transform 0.1s linear;
+}
+
+.right-text-content:hover:after,
+.right-text-content:active:after{
+    transform: scaleX(1);
+    height: 3px;
+    transform-origin: left bottom;
+    transition: transform 0.1s linear;
+   
+}
+
+
+    
+/* Second Part */
+.heading-second {
+    position: relative;
+    font-size: 1.5rem;
+    margin: 0 0 0 10%;
+    line-height: 0.5;
+}
+
+.heading-third{
+    display: flex;
+    font-size: 13rem;
+    margin-top: 10%;
+}
+
+.big-text {
+    margin-left: 10%;
+    max-width: 20px;
+}
+
+.and-sign {
+    
+    margin-top: -14%;
+    
+}
+
+.horizental-line{
+    width: 15%;
+    margin-left: 45%;
+
+}
+
+.horizental-line > hr {
+    border: 4px solid black;
+}
+
+/* Section 1 Part 4 */
+.heading-fourth {
+    display: flex
+       
+      
+}
+.left-fourth-img {
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 70%;
+    height: 600px;
+}
+img{
+    width: 50%;
+}
+
+.right-fourth-text {
+    width: 70%;
+    font-size: 2rem;
+    line-height: 3rem;
+    margin-right: 10%;
+    position: relative;
+    height: 600px;
+    margin-top: 5%;
+    
+}
+.right-fourth-text1{
+   position: absolute;
+   bottom: 0;
+  
+}
+.right-fourth-read-more{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.right-fourth-read-more  {
+    font-weight: bold;
+}
+
+.right-fourth-read-more:hover {
+    
+    cursor: pointer;
+}
+
+.right-fourth-read-more span {
+    display: inline-block;
+    position: relative;
+    height: 3px;
+    background-color: black;
+    width: 120px;
+    margin: 8px 10px;
+}
+ 
+
+.right-fourth-read-more span {
+    transition: transform .5s linear;
+    transform-origin: bottom left;
+
+}
+.right-fourth-read-more:hover span {
+    transform: scaleX(0);
+   
+}
+
+
+.right-fourth-read-more .more{
+    transition: transform .5s linear;
+
+}
+.right-fourth-read-more:hover .more{
+   transform: translateX(-120px);
+   
+}
+
+
+/* Section 2 */
+#section2{
+    height: auto;
+    background-color: black;
+    margin-top: 10%;
+}
+/* Section 2 whole thing */
+.section2-whole-thing{
+    margin-left: 10%;
+    height: auto;
+}
+
+/* First Text */
+.section2-first-div{
+    /* padding-left:5%; */
+    margin-top: 0;
+    padding-top: 150px;
+}
+.section2-first-div > h1{
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    }
+
+
+
+/* First row of images */
+.section2-second-div{
+    display: flex;
+    margin-top: 5%;
+}
+
+.section2-first-image{
+    width: 50%;
+    height: auto;
+    
+}
+.section2-first-image > img  {
+    width:800px;
+    height: 600px;
+    transition: transform .3s linear;
+}
+.section2-first-image > img:hover{
+    transform: scale(.92,.92);
+}
+.section2-second-image{
+    width: 50%;
+    height: auto;
+    
+}
+
+.section2-second-image > img {
+    width:900px;
+    height: 700px;
+    transition: transform .3s linear;
+    
+}
+
+
+.section2-second-image > img:hover {
+    transform: scale(.92,.92);
+    
+}
+.section2-first-image > h2 {
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+}
+.section2-first-image > p {
+    color: #6e6e6d;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.5rem;
+}
+
+.section2-second-image > h2 {
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+}
+.section2-second-image > p {
+    color: #6e6e6d;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.5rem;
+}
+
+/* Second Row of Images */
+
+
+.section2-third-div{
+    display: flex;
+    margin-top: 5%;
+}
+
+.section2-third-image{
+    width: 50%;
+    height: auto;
+    
+}
+.section2-third-image > img  {
+    width:900px;
+    height: 700px;
+    transition: transform .3s linear;
+}
+.section2-third-image > img:hover{
+    transform: scale(.92,.92);
+}
+.section2-fourth-image{
+    width: 50%;
+    height: auto;
+    
+    
+}
+
+.section2-fourth-image > img {
+    width:800px;
+    height: 600px;
+    transition: transform .3s linear;
+    
+}
+
+
+.section2-fourth-image > img:hover {
+    transform: scale(.92,.92);
+    
+}
+.section2-third-image > h2 {
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+}
+.section2-third-image > p {
+    color: #6e6e6d;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.5rem;
+}
+
+.section2-fourth-image > h2 {
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+}
+.section2-fourth-image > p {
+    color: #6e6e6d;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.5rem;
+}
+
+
+
+/* section 2 last part */
+.view-all {
+    position: absolute;
+    right: 10%;
+}
+.view-all-text{
+    display: flex 
+    
+     
+}
+
+.view-all-text >p {
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 2rem;
+    
+    
+   
+}
+
+.view-all-text > span {
+    display: inline-block;
+    position: relative;
+    height: 3px;
+    background-color: white;
+    width: 120px;
+    margin: 50px 10px;
+    
+}
+
+.view-all-text span {
+    transition: transform .5s linear;
+    transform-origin: bottom right;
+
+}
+.view-all-text:hover span {
+    transform: scaleX(0);
+   
+}
+
+
+.view-all-text .view-left1{
+    transition: transform .5s linear;
+
+}
+.view-all-text:hover .view-left1{
+   transform: translateX(120px);
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media  screen and (max-width : 600px) {
+    .heading-third {
+        font-size: 4rem;
+    }
+    .left-text > span{
+        font-family: 'Rubik', sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+    text-align: center;
+    align-items: center;
+    margin: 1% 4%;
+       display: inline-block;
+    }
+    .left-text > h1 {
+        display: none;
+    }
+}
+
+@media screen and (min-width : 600px) and (max-width : 1200px){
+    .heading-third{
+        font-size: 5rem;
+    }
+}
